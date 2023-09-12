@@ -1,0 +1,251 @@
+{
+  "internalWebApiServices": [
+    {
+      "goid": "1ebc210518c00acf6fabd80476806c7d",
+      "guid": "74767097-93c4-4d4f-958e-730c4b797b49",
+      "name": "Gateway GraphQL Management Service",
+      "resolutionPath": "/graphman",
+      "checksum": "f923bbb84adaddc9030c711c0c5e2a29689a72f6"
+    },
+    {
+      "goid": "1ebc210518c00acf6fabd80476806cb8",
+      "guid": "89244d54-08ac-443b-8660-9e42727bed71",
+      "name": "Gateway REST Management Service",
+      "resolutionPath": "/restman/*",
+      "checksum": "446f22627ff459733b56c3b55b179321df1b9952"
+    }
+  ],
+  "globalPolicies": [
+    {
+      "goid": "e3640b319919d11dfc0027ed1b9cc016",
+      "guid": "5c4e6e6e-ec15-4bce-a4cb-3940cbfdf4c6",
+      "name": "message-completed",
+      "tag": "message-completed",
+      "checksum": "4a07c318ac86abe0440d55b4185107e0f358f05b"
+    },
+    {
+      "goid": "84449671abe2a5b143051dbdfdf81d31",
+      "guid": "400cae20-08dd-4e46-b2ea-919b25f40321",
+      "name": "globalReceived",
+      "tag": "message-received",
+      "checksum": "351d17b7c169497f42e220d141edc1d32ab99a4a"
+    }
+  ],
+  "backgroundTaskPolicies": [
+    {
+      "goid": "84449671abe2a5b143051dbdfdf81d07",
+      "guid": "5fde4fb4-72b4-4435-a564-fd1b9990f494",
+      "name": "dailySync",
+      "checksum": "98dea9e0b53340efe66535ba8f551564af46afa3"
+    }
+  ],
+  "policyFragments": [
+    {
+      "goid": "84449671abe2a5b143051dbdfdf7e6db",
+      "guid": "e513b52b-7d41-416f-9906-17f8e12b6d6a",
+      "name": "ABC Rules",
+      "checksum": "7127b6044fcafaef8321391dcc22174fa261b751"
+    },
+    {
+      "goid": "e5cd57980c53d67b99eca6189e2e4db6",
+      "guid": "a9f7163b-d17a-42e8-9b75-855ca6f67c08",
+      "name": "Generic API Template",
+      "checksum": "130b6766bc4beecbdc219a9f7d939f784c05e4a5"
+    },
+    {
+      "goid": "e5cd57980c53d67b99eca6189e2e4cd4",
+      "guid": "7079ed73-1730-4679-bdc0-6cc56b9fb4bc",
+      "name": "enforcePlan",
+      "checksum": "5cb4ed03adcc25e45d3dd2b8e3a911be7d077bc8"
+    },
+    {
+      "goid": "e5cd57980c53d67b99eca6189e2e46d5",
+      "guid": "0303de0b-1ce7-46f3-bef4-95e4ebe8de5d",
+      "name": "lookupSubscriptions",
+      "checksum": "487d0175ae37e8c058def6571042171cd1c2ea84"
+    },
+    {
+      "goid": "012ce653ed64a2f429d3907b248a6a2c",
+      "guid": "3b1c8451-6af9-4983-ae6b-1f7e795ab571",
+      "name": "sub_abc",
+      "checksum": "d797c87b313b4a1178dd51e3ff113c44ead55df4"
+    },
+    {
+      "goid": "012ce653ed64a2f429d3907b248a6a47",
+      "guid": "a88d82dd-e024-4c22-a6db-a8fc91e8b105",
+      "name": "sub_def",
+      "checksum": "0d8e1ad45445ab7536582590d79591051a24a989"
+    },
+    {
+      "goid": "012ce653ed64a2f429d3907b248a6a61",
+      "guid": "e15a5669-0bf8-4873-97e4-d21464a7fe42",
+      "name": "sub_ghi",
+      "checksum": "e39d354d07d9a2944658244c3701b4f8f6b0b13d"
+    }
+  ],
+  "clusterProperties": [
+    {
+      "goid": "84449671abe2a5b143051dbdfdf7e5f3",
+      "name": "a",
+      "checksum": "b77d1a0eca5224e5a33453b8fa6ace8fcbb1ce5e"
+    },
+    {
+      "goid": "fccfd48b8130bef46e537b3974bf73e0",
+      "name": "audit.setDetailLevel.FINE",
+      "checksum": "2ef1d6f928b5e331fb3d258f596a93ef41c8ab6d"
+    },
+    {
+      "goid": "84449671abe2a5b143051dbdfdf7e5f9",
+      "name": "b",
+      "checksum": "f2e671c056a9942360caca33e0051919626d2b49"
+    },
+    {
+      "goid": "0000000000000000fffffffffff5519f",
+      "name": "cluster.hostname",
+      "checksum": "25e3106e8778b6ebe94d7d3f8eeca0d96dc258be"
+    },
+    {
+      "goid": "350b4e52c5e9e11a2cc02d5e1923eee2",
+      "name": "io.httpsHostAllowWildcard",
+      "checksum": "b64f30c7d88b60bbf1b0def0178b40291c09e06b"
+    },
+    {
+      "goid": "00ea874ad64d72ab800b2babd88687ca",
+      "name": "keyStore.defaultSsl.alias",
+      "checksum": "ea7e440267e9c93b25578950c783ddca2f0fd50b"
+    },
+    {
+      "goid": "0e211317778308935f286a203cb74d61",
+      "name": "log.levels",
+      "checksum": "bf4ba835f74b79783055e4fe4a890537d281c5b1"
+    },
+    {
+      "goid": "982cc1ee7369c6ca5a7ae1e4ad866070",
+      "name": "myDemoConfigVal",
+      "checksum": "57d4e31691d7373f10911868be0ee60df25d5323"
+    },
+    {
+      "goid": "215fe4d5d751e951f4d36ff56a0c7f6e",
+      "name": "otel.metricPrefix",
+      "checksum": "d9c7b92093476d146b04eabefe0bdfbb774d8dd7"
+    },
+    {
+      "goid": "83b27db756a6047a0c8ae899382c4333",
+      "name": "otel.resourceAttributes",
+      "checksum": "2873e4642a5ad3fad10d5bd735cf2c86cf25c299"
+    },
+    {
+      "goid": "43dc7dfb99a067519cf35d5af59b1fd1",
+      "name": "otel.serviceMetricEnabled",
+      "checksum": "3131c534e3e2251fad2cb1f7db4b32dac5ff57ea"
+    },
+    {
+      "goid": "075667d0028692c4c1671bcca51ee73c",
+      "name": "otel.traceConfig",
+      "checksum": "ea8e05e63d1f1be87ab528230507c6d76c01c05e"
+    },
+    {
+      "goid": "3b5d60c683b2599445ebf16a75e1c12d",
+      "name": "otel.traceEnabled",
+      "checksum": "28b47d47a1b4e0a80b85bfb6837ce82cee111bd8"
+    }
+  ],
+  "internalUsers": [
+    {
+      "goid": "00000000000000000000000000000003",
+      "name": "admin",
+      "login": "admin",
+      "checksum": "102efe58c6062bfdcf58bd5ed71681c73931dea5"
+    }
+  ],
+  "jdbcConnections": [
+    {
+      "goid": "84449671abe2a5b143051dbdfdf7e762",
+      "name": "mydb",
+      "checksum": "a5f8e5070bd9d9d3f04a1b7c70798409be7dae8d"
+    }
+  ],
+  "jmsDestinations": [
+    {
+      "goid": "84449671abe2a5b143051dbdfdf81d57",
+      "connectionGoid": "84449671abe2a5b143051dbdfdf81d55",
+      "name": "eventsOut",
+      "direction": "OUTBOUND",
+      "providerType": "WEBLOGIC JMS",
+      "checksum": "f8c6a0108c998495a5a78d1223129cb0f053f54d"
+    }
+  ],
+  "keys": [
+    {
+      "goid": "00000000000000000000000000000002:blah",
+      "keystoreId": "00000000000000000000000000000002",
+      "alias": "blah",
+      "checksum": "171c8376f9f9c32c679e2cf7217803450b483b43"
+    },
+    {
+      "goid": "00000000000000000000000000000002:ssl",
+      "keystoreId": "00000000000000000000000000000002",
+      "alias": "ssl",
+      "checksum": "0f60e55a78c977e020dd1d60787577313cd51f65"
+    }
+  ],
+  "listenPorts": [
+    {
+      "goid": "0098ea9d325351cbae9334a8f9d481aa",
+      "name": "Default HTTP (8080)",
+      "checksum": "69762ec112b7fd7d72ee8757f975a96ea1d1f148"
+    },
+    {
+      "goid": "1321258074f25f1f3e0d2da02692a09b",
+      "name": "Default HTTPS (8443)",
+      "checksum": "c275413d6cadc833487fbc8bbf55e8fd9e04f621"
+    },
+    {
+      "goid": "a226a6f696d479b8ee024f290eec0f09",
+      "name": "Default HTTPS (9443)",
+      "checksum": "80e7c4a37dd63b0dfda0476182970915da705748"
+    }
+  ],
+  "scheduledTasks": [
+    {
+      "goid": "84449671abe2a5b143051dbdfdf81e01",
+      "name": "My Daily Clean and Sync",
+      "checksum": "a211255dff5b8f6824e539a5e32a561296c91a56"
+    }
+  ],
+  "secrets": [
+    {
+      "goid": "84449671abe2a5b143051dbdfdf7e76e",
+      "name": "mydb",
+      "checksum": "fb4347dc7999c213d0c3d7d8ce5aa73cc140a165"
+    },
+    {
+      "goid": "012ce653ed64a2f429d3907b248a6782",
+      "name": "newpasswd",
+      "checksum": "1e3964f8fd4e0dbbf8ed84570cca97da530b7d44"
+    }
+  ],
+  "trustedCerts": [
+    {
+      "goid": "84449671abe2a5b143051dbdfdf7e704",
+      "name": "www.broadcom.com",
+      "subjectDn": "cn=www.broadcom.com,o=broadcom inc,l=san jose,st=california,c=us",
+      "thumbprintSha1": "4w230rgczdepEDjkuO8gYsOfyTU=",
+      "checksum": "1866cef9812889ec2518d0f41bf84612d4399241"
+    },
+    {
+      "goid": "00ea874ad64d72ab800b2babd88687c9",
+      "name": "AutoTrustSslKey",
+      "subjectDn": "cn=ssg-5b95d56dd6-lbss2",
+      "thumbprintSha1": "VoTY/1VjBesZxj8M3FsS6ddTlEk=",
+      "checksum": "b586a10a4524297aca05137beee8675dc4002374"
+    },
+    {
+      "goid": "982cc1ee7369c6ca5a7ae1e4ad86dc6b",
+      "name": "New trusted cert",
+      "subjectDn": "cn=*.tesla.com,o=tesla\\, inc.,l=palo alto,st=california,c=us",
+      "thumbprintSha1": "iZJ/xtwDDv+gic0J9idwO9XqYVw=",
+      "checksum": "a365254617c3151a282af375d1fc4814d85d6556"
+    }
+  ]
+}
