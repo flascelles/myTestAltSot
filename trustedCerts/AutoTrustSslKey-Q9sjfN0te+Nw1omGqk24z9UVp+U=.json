@@ -1,0 +1,17 @@
+{
+  "goid": "b0d3626aca1059df72c15dc30daef3b1",
+  "name": "AutoTrustSslKey",
+  "subjectDn": "cn=ssg-7b6544d9dd-qcnzb",
+  "thumbprintSha1": "Q9sjfN0te+Nw1omGqk24z9UVp/U=",
+  "checksum": "ee7b6be4c2e7b2b3a070d9070340ce2e4110ee08",
+  "verifyHostname": false,
+  "trustAnchor": true,
+  "trustedFor": [
+    "SSL",
+    "SAML_ISSUER"
+  ],
+  "revocationCheckPolicyType": "USE_DEFAULT",
+  "notBefore": "2023-09-11T14:21:09Z",
+  "notAfter": "2033-09-08T14:21:09Z",
+  "certBase64": "MIIDAzCCAeugAwIBAgIJAIn0EtPVxODKMA0GCSqGSIb3DQEBDAUAMB8xHTAbBgNVBAMTFHNzZy03\r\nYjY1NDRkOWRkLXFjbnpiMB4XDTIzMDkxMTE0MjEwOVoXDTMzMDkwODE0MjEwOVowHzEdMBsGA1UE\r\nAxMUc3NnLTdiNjU0NGQ5ZGQtcWNuemIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCe\r\naT7yEjRLYjZTYp9efUsTDTQiwn4O73ZFjFvCFYVVFv6ousxOUiyIeTmrXAPG8ikn5UrVADQu7KN7\r\nbEE+D5THvMltm+ZoV/jR3bhmNfukGlBSR1v97RoToZNOHlBjO2IOpVkAAjPa6HWACii0ifKnk7wl\r\nGy6fmmXPNgWgzve9WcGnyDnnxqnkHWTkWFMWvLDMvoC7c6sVAXElnL0qetSNpThasdGlO2Gl8oNM\r\nIYxjne8ik/wByLhdJsdt/LzR/dlJiZJJjyfeEenUPxkpnazQj7EoqQiuXI4I6frOzt3LtbKu8c0o\r\na34zydOSE3DBUrCU1nGig2BrBR7wuS9/qOUxAgMBAAGjQjBAMB0GA1UdDgQWBBRk/SqdT1cNXREF\r\n4oteGlICp2QxjjAfBgNVHSMEGDAWgBRk/SqdT1cNXREF4oteGlICp2QxjjANBgkqhkiG9w0BAQwF\r\nAAOCAQEAi8a+3fYJjlJYfOibexMEmrQAUJPttRoHCISbrzA9p4v3W56+wAcXV0sD5KvpLw0gBjWO\r\nCw3DlODV8onj/sfrk2TCS7dm8xVPJUomJAdOW4+qQNYaJyL30YiElsgD8mheD1YZGBYwMCFcdtAk\r\nuH+XlVZmr9DmlrfTLCOHBOKpNoSCGs5/FNp5pD8Z41u0/WOegh1K1RSyRi+BGBrayOq1XCPyDCtf\r\nDMvUjZadfBOyWusTO5UY6gXinlvQvT2tbqqh8tFJ72RReGeMndxQI1ZDWeR7a1X5FepHO6phGOGB\r\nVwbKNXNt7FHLAuL9xJ5IUQuBNAjt3fL01BlnokXJpbT/JQ=="
+}

@@ -18,8 +18,6 @@
   },
   "destinationType": "QUEUE",
   "destinationName": "d",
-  "destinationUsername": "",
-  "destinationPassword": "",
   "destinationSslDetails": {
     "sslEnabled": false,
     "sslForAuthenticationOnly": false,
